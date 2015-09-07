@@ -9,10 +9,10 @@ Author: Iain Matchett
 */
 // No direct call
 //if( !defined( 'YOURLS_ABSPATH' ) ) die(); 
-define( 'OG-IMAGE', "https://www.rcpsg.ac.uk/~/media/Images/HeaderAndFooter/logo.ashx" );
-define( 'OG-TITLE', "RCPSG" );
-define( 'OG-target', "rcpsg.ac.uk" );
-define( 'OG-SITENAME', "RCPSG" );
+define( 'OG-IMAGE', "" );
+define( 'OG-TITLE', "" );
+define( 'OG-target', "" );
+define( 'OG-SITENAME', "" );
 
 yourls_add_action( 'pre_redirect', 'og-everywhere' );
 function og-everywhere( $args )
